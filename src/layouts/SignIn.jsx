@@ -24,7 +24,7 @@ const SignIn = () => {
         console.log(signInInfo);
 
         // update to the db 
-       fetch(`https://coffee-store-server-sooty-chi.vercel.app/users`, {
+       fetch(`http://localhost:3000/users`, {
             method: "PATCH",
             headers: {
               "content-type": "application/json",
